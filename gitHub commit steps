@@ -1,0 +1,15 @@
+RStudio:Tools -> Git/SVN -> SSH/RSA key (view & copy)
+Github: create new repository (SillyR.git); Edit profile -> SSH Keys(add)
+RStudio: 
+git config --global user.email “mail@abc.com"
+git config --global user.name “sasa33k”
+
+** New Proj, create git repo, commit… **
+Tools > Shell
+
+git remote add origin https://github.com/sasa33k/SillyR.git
+
+git config remote.origin.url git@github.com:sasa33k/SillyR.git
+
+git pull -u origin master
+git push -u origin master
